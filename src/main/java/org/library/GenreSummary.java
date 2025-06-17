@@ -31,6 +31,15 @@ public class GenreSummary {
         return totalRating;
     }
 
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public void setTotalRating(double totalRating) {
+        this.totalRating = totalRating;
+    }
+
     /**
      * Calculates the average rating for this genre.
      *
